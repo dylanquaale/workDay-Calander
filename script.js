@@ -40,7 +40,7 @@ $('#hour-4 .description').val(localStorage.getItem('hour-4'));
 $('#hour-5 .description').val(localStorage.getItem('hour-5'));
 
 const rows = document.getElementsByClassName("time-block");
-let currentHour = parseInt(dayjs().format('H'));
+let currentDay = parseInt(dayjs().format('H'));
 
 Array.from(rows).forEach(row => {
   let
@@ -51,11 +51,11 @@ Array.from(rows).forEach(row => {
   }
   if (rowHour) {
     // Compares row id to current hour and sets color accordingly
-    if (currentHour === rowHour) {
+    if (currentDay === rowHour) {
       setColor(row, "red");
-    } else if ((currentHour < rowHour) && (currentHour > rowHour - 5)) {
+    } else if ((currentDay < rowHour) && (currentDay > rowHour - 5)) {
       setColor(row, "green");
-    } else if ((currentHour > rowHour) && (currentHour < rowHour + 5)) {
+    } else if ((currentDay > rowHour) && (currentDay < rowHour + 5)) {
       setColor(row, "lightgrey");
     } else {
       setColor(row, "white");
