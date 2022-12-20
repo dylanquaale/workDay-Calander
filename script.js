@@ -41,7 +41,7 @@ $('#hour-5 .description').val(localStorage.getItem('hour-5'));
 
 const rows = document.getElementsByClassName("time-block");
 let currentDay = parseInt(dayjs().format('H'));
-
+// came from stack overflow
 Array.from(rows).forEach(row => {
   let
     rowIdString = row.id,
