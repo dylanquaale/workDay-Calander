@@ -12,12 +12,12 @@ let hourThree = $('#hour-3');
 let hourFour = $('#hour-4');
 let hourFive = $('#hour-5');
 
-// displays cuurent date in header
+// displays current date in header
 let now = dayjs().format("dddd, MMMM D YYYY");
 let displayDate = document.getElementById("currentDay");
 displayDate.innerHTML = now;
 
-// adds click function to save to local storage
+// makes click btn able to save to local storage
 $(document).ready(function() {
   $('.saveBtn').on('click', function () {
   

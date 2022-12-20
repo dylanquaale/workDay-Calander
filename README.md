@@ -1,8 +1,12 @@
-# 
+# workDay-Calander
 
 
 ## Description
-
+Created this for you to easily plan your work day.
+Your schedule will display the current date at the top of the page.
+Below will display your time blocks for the day.
+You will also be able to save and delete what you have going on in your day.
+Was not able to change the colors to display past present and future not sure what I am doing wrong here,
 
 
 ### Installation
@@ -13,6 +17,10 @@
 
 
 ## Credits
+https://stackoverflow.com/questions/59995703/trying-to-change-background-color-based-off-if-the-hour-is-in-the-past-current
+Made 'let' instead of var for what we learned in class recently.
+Created the rest by looking back on class sessions  
+
 
 ## License
 
@@ -25,27 +33,4 @@ The last section of a high-quality README file is the license. This lets other d
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-## Features
-
-
-
-## How to Contribute
-
-## Tests>
-
-
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-## Usage
 
