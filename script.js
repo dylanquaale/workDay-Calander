@@ -39,7 +39,7 @@ $('#hour-3 .description').val(localStorage.getItem('hour-3'));
 $('#hour-4 .description').val(localStorage.getItem('hour-4'));
 $('#hour-5 .description').val(localStorage.getItem('hour-5'));
 
-const rows = document.getElementsByClassName("row time-block");
+const rows = document.getElementsByClassName("time-block");
 let currentHour = parseInt(dayjs().format('H'));
 
 Array.from(rows).forEach(row => {
