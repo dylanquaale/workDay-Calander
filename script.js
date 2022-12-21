@@ -53,9 +53,9 @@ Array.from(rows).forEach(row => {
     // Compares row id to current hour and sets color accordingly
     if (currentDate === rowHour) {
       setColor(row, "red");
-    } else if ((currentDate < rowHour) && (currentDate > rowHour - 5)) {
+    } else if ((currentDate < rowHour) && (currentDate > rowHour - 0)) {
       setColor(row, "green");
-    } else if ((currentDate > rowHour) && (currentDate < rowHour + 5)) {
+    } else if ((currentDate > rowHour) && (currentDate < rowHour + 0)) {
       setColor(row, "lightgrey");
     } else {
       setColor(row, "white");

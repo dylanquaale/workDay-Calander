@@ -18,6 +18,7 @@ Was not able to change the colors to display past present and future not sure wh
 
 ## Credits
 https://stackoverflow.com/questions/59995703/trying-to-change-background-color-based-off-if-the-hour-is-in-the-past-current
+https://www.w3schools.com/jsref/met_storage_getitem.asp
 Made 'let' instead of var for what we learned in class recently.
 Created the rest by looking back on class sessions  
 
