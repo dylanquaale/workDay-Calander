@@ -11,6 +11,7 @@ Was not able to change the colors to display past present and future not sure wh
 
 ### Installation
 https://dylanquaale.github.io/workDay-Calander/
+<img width="1728" alt="Screenshot 2022-12-20 at 6 08 24 PM" src="https://user-images.githubusercontent.com/93456860/208790515-f365b893-eacd-47df-a8ac-65cd74b4d2dc.png">
 
 
 ## Usage
